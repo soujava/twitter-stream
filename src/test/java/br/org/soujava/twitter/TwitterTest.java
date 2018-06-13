@@ -5,11 +5,13 @@ import br.org.soujava.twitter.model.User;
 import br.org.soujava.twitter.utils.TestUtil;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+@Category({UnitTests.class})
 public class TwitterTest {
 
     private Twitter tweet;

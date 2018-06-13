@@ -14,7 +14,7 @@ import java.util.SortedSet;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-@Category({IntegrationTest.class})
+@Category({IntegrationTests.class})
 public class TwitterRunnerTest {
 
     @Test

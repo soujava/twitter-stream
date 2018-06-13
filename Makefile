@@ -34,4 +34,14 @@ test: clean
 	echo "============== Testing app";
 	mvn test;
 
+test-integration: clean
+	mvn compile;
+	echo "============== Testing app - IT Tests";
+	mvn test -P IntegrationTests;
+
+test-unit: clean
+	mvn compile;
+	echo "============== Testing app - Unit Tests";
+	mvn test -P UnitTests;
+
 .PHONY: start, clean, test, log

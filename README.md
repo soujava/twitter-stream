@@ -71,8 +71,11 @@ This project exemplifies how to:
 ## Clean
 `mvn clean`
 
-## Test
-`mvn test`
+## Test Unit
+`mvn test -P UnitTests`
+
+## Test Integration
+`mvn test -P IntegrationTests`
 
 ## Clean databases
 ```

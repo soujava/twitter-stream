@@ -1,6 +1,6 @@
 package br.org.soujava.twitter;
 
-public interface IntegrationTest {
+public interface IntegrationTests {
 
 }
 
